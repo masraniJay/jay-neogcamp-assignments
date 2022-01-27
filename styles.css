@@ -23,5 +23,16 @@ h2{
 
 .card-component{
     display: flex;
-    background-color: blueviolet;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.card{
+    background-color: wheat;
+    max-width: 300px;
+}
+
+.card-image{
+    height: 200px;
+    width: 300px;
 }
