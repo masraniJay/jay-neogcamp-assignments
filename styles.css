@@ -10,11 +10,6 @@ header{
     background-color: palevioletred;
 }
 
-header h1{
-    position: relative;
-    top: 10px;
-}
-
 h2{
     height: 40px;
     text-align: center;
@@ -37,10 +32,8 @@ h2{
 }
 
 .card-image{
-    border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-    height: 200px;
-    width: 300px;
+    border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .card-text{
@@ -80,3 +73,50 @@ h2{
     border-radius: 50%;
     background-color: #f9f5fe;
   }
+
+  .card-title-2{
+      order: -1;
+  }
+
+  .only-button{
+      visibility: hidden;
+  }
+
+  .only-icon{
+    visibility: hidden;
+}
+
+.position{
+    position: relative;
+}
+
+.absolute{
+    color: white;
+    position:absolute;
+    bottom: 0;
+}
+
+.card-image-2{
+    height: 200px;
+    width: 300px;
+}
+
+.card-height{
+    height: 340px;
+}
+
+.card-horizontal{
+    display: flex;
+    align-items: flex-end;
+}
+
+.card-image-horizontal{
+    height: 6rem;
+    width: 6rem;
+}
+
+.card-horizontal-height{
+    height: 220px;
+}
+
+
