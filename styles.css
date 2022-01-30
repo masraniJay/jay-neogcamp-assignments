@@ -2,18 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: red solid 1px;
 }
 
 header{
     height: 60px;
     text-align: center;
     background-color: palevioletred;
+    margin: 0.5rem;
 }
 
 h2{
     height: 40px;
     text-align: center;
     background-color: aqua;
+    margin: 0.5rem;
 }
 
 .card-component{
@@ -120,4 +123,46 @@ h2{
     height: 220px;
 }
 
+/* chips */
 
+.chips-component{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.basic-chips{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+.chip{
+    background-color: rgb(184, 175, 175);
+    min-width: 4rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    text-align: center;
+    border-radius: 1.5rem;
+    font-weight: bold;  
+}
+
+.chip-cancel{
+    display: flex;
+    margin: 1rem;
+    flex-wrap: wrap;
+}
+
+.cancel{
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.chip-stacked{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem;
+}
