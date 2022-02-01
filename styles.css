@@ -28,7 +28,8 @@ h2{
 .card{
     display: flex;
     flex-direction: column;
-    background-color: wheat;
+    background-color: whitesmoke;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
     max-width: 300px;
     margin: 1rem;
     border-radius: 8px;
@@ -295,4 +296,91 @@ h2{
 
 .badge-icon{
     font-size: xx-large;
+}
+
+/* snackbar */
+
+.snackbar-component{
+    display: flex;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.snackbar{
+    padding: 10px;
+    margin: 1rem;
+    color: white;
+    background-color: rgb(19, 14, 14);
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    border-radius: 5px;
+}
+
+.snackbar-button{
+    margin: 0.5rem;
+    color: blueviolet;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.snackbar-cancel{
+    /* margin: 0.5rem; */
+    /* font-size: 1.5rem; */
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* dialog component */
+
+.dialog-component{
+    display: flex;
+    margin: 1rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dialog{
+    padding: 10px;
+    margin: 1rem;
+    border: black solid 1px;
+    width: 200px;
+    box-shadow: black 0px 3px 8px;
+}
+
+.dialog-header{
+    padding: 10px;
+    /* margin: 1rem; */
+    font-weight: bold;
+    font-size: large;
+}
+
+.dialog-item{
+    padding: 10px;
+    /* margin: 1rem; */
+    font-size: large;
+}
+
+.dialog-icon{
+    padding: 10px;
+    font-size: xx-large;
+}
+
+.dialog-footer{
+    margin-left: 2rem;
+}
+
+.dialog-button{
+    color: purple;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+
+.dialog-input{
+    overflow-y: scroll;
+    height: 100px;
 }
