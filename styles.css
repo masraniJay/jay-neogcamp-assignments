@@ -325,8 +325,6 @@ h2{
 }
 
 .snackbar-cancel{
-    /* margin: 0.5rem; */
-    /* font-size: 1.5rem; */
     font-weight: bold;
     cursor: pointer;
 }
@@ -350,14 +348,12 @@ h2{
 
 .dialog-header{
     padding: 10px;
-    /* margin: 1rem; */
     font-weight: bold;
     font-size: large;
 }
 
 .dialog-item{
     padding: 10px;
-    /* margin: 1rem; */
     font-size: large;
 }
 
@@ -383,4 +379,34 @@ h2{
 .dialog-input{
     overflow-y: scroll;
     height: 100px;
+}
+
+/* Tab Component */
+
+.tab-component{
+    display: flex;
+    margin: 1rem;
+    justify-content: space-around;
+}
+
+.tab{
+    display: flex;
+    border: black solid 1px;
+}
+
+.tab-item{
+    border: black solid 1px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+}
+
+.tab-item:nth-of-type(1){
+    background-color: blue;
+}
+
+.tab-scroll{
+    width: 15rem;
+    overflow-x: scroll;
 }
